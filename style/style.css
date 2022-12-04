@@ -1,0 +1,663 @@
+.indexbody{
+    background: linear-gradient(to bottom, #5A189A 80%, #E0AAFF 100%);
+}
+
+* {
+    margin:0px;
+    padding:0px;
+}
+.imgejemplo{
+    width: 100%;
+    height: 100%;
+}
+
+/*#header {
+    justify-content: left;
+    margin:auto;
+    width:50vw;
+    font-family:Arial;
+}*/
+.indextext{
+    font-size: 24px;
+    padding:  4px ;
+    
+}
+.indextextgrande{
+    font-size: 35px;
+    padding:  4px ;
+}
+.indextextB{
+    font-size: 25px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:  4px ;
+}
+.indextextgrandeB{
+    font-size: 30px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:  4px ;
+}
+.indextexttitulo{
+    font-size: 50px;
+    color: #7c500a ;
+}
+.headerindex{
+   
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #10002B 50%, #3C096C 100%);
+    width: 98%;
+    height: 15vh;
+    padding-left: 2vw;
+
+}
+.navindex{
+    background-color: #240046;
+    width: 100% ;
+    height: 8vh;
+    
+}
+
+
+ul {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#240046;
+    color:white;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+
+.nav li a:hover {
+    background-color:#C77DFF;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:20vh;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+.pindex{
+    font-family: 'Stardew Valley';
+    font-size: 70px;
+    color: white;
+}
+.secionindex{
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+}
+.articuloindex1{
+    
+    display: flex;
+    flex-direction: column;
+}
+.divindex1{
+    
+    width: 35vw;
+    height: 40vh;
+    background-color: #E0AAFF;
+    margin: 1px;
+}
+.divindex2{
+    border-color: #10002B;
+    border-radius: 1px;
+    padding: 10vw;
+    margin: 5vw;
+    justify-content: center;
+    width: 10vw;
+    height: 1vh;
+    background-color: linear-gradient(to bottom, #5A189A 80%, #E0AAFF 100%);
+    margin: 1px;
+}
+.imagenindex{
+    width: 180px;
+    height: 360px;
+
+}
+
+
+/* Fases de la gestión*/
+
+.pfases{
+    font-family: 'Stardew Valley';
+    font-size: 70px;
+    color: white;
+}
+.secionfases{
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+}
+.articulofases1{
+    
+    display: flex;
+    flex-direction: column;
+}
+.divfases1{
+    
+    width: 33vw;
+    height: 40vh;
+    background-color: #FDC500;
+    margin: 1px;
+}
+.divfases4{
+    
+    width: 33vw;
+    height: 40vh;
+    background-color: #817B28;
+    margin: 1px;
+}
+.divfases2{
+    
+    width: 35vw;
+    height: 40vh;
+    background-color: #817B28;
+    margin: 1px;
+}
+.divfases3{
+    
+    width: 33vw;
+    height: 40vh;
+    background-color: #03071E;
+    margin: 1px;
+}
+.divfases5{
+    
+    width: 99vw;
+    height: 20vh;
+    background-color: #03071E;
+    margin: 1px;
+}
+.divfases2{
+    border-color: #10002B;
+    border-radius: 1px;
+    padding: 10vw;
+    margin: 5vw;
+    justify-content: center;
+    width: 10vw;
+    height: 1vh;
+    background-color: linear-gradient(to bottom, #FDC500 80%, #E0AAFF 100%);
+    margin: 1px;
+}
+.imagenfases{
+    width:100%;
+    height: 100%;
+
+}
+/*Tipos de gestion*/
+/*simples*/
+.Sbody{
+    background: linear-gradient(to bottom, #FF9E00 80%, #9D4EDD 100%);
+}
+.pS{
+    font-family: 'Stardew Valley';
+    font-size: 70px;
+    color: white;
+}
+.secionS{
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+}
+.articuloS1{
+    
+    display: flex;
+    flex-direction:column;
+}
+.divS1{
+    
+    width: 66vw;
+    height: 40vh;
+    background-color: #7B2CBF;
+    margin: 1px;
+}
+.divS4{
+    
+    width: 33vw;
+    height: 40vh;
+    background-color: #5A189A;
+    margin: 1px;
+}
+.divS2{
+    
+    width: 35vw;
+    height: 40vh;
+    background-color: #817B28;
+    margin: 1px;
+}
+.divS3{
+    
+    width: 33vw;
+    height: 50vh;
+    background-color: #03071E;
+    margin: 1px;
+}
+.divS5{
+    
+    width: 616px;
+    height: 353px;
+    /*background-color: #03071E;*/
+    margin: 1px;
+    animation: 
+    25s linear 0s infinite alternate cambio,
+    3s linear 0s infinite alternate bounce;
+}
+.divS2{
+    border-color: #10002B;
+    border-radius: 1px;
+    padding: 10vw;
+    margin: 5vw;
+    justify-content: space-around;
+    width: 10vw;
+    height: 1vh;
+    background-color: linear-gradient(to bottom, #FDC500 80%, #E0AAFF 100%);
+    margin: 1px;
+}
+.imagenS{
+    width:100%;
+    height: 100%;
+
+}
+.hijocentral{
+    display: flex;
+   justify-content: center;
+    width: 15vw;
+    height: 30vh;
+    margin:5px;
+  
+}
+@keyframes cambio {
+    0%   {background-image: url(../images/dave.jpg);  }
+    12%   {background-image: url(../images/dave.jpg);  }
+    25% {background-image:url(../images/forager\ animacion.jpg); }
+   40% {background-image:url(../images/forager\ animacion.jpg); }
+    50%  {background-image: url(../images/stardew\ animacion.jpg);}
+    66%  {background-image: url(../images/stardew\ animacion.jpg);}
+    75% {background-image: url(../images/animla2.jpg);}
+    85% {background-image: url(../images/animla2.jpg);}
+    95%   {background-image: url(../images/animacion1.jpg);}
+    100%   {background-image: url(../images/animacion1.jpg);}
+
+   
+  }
+  @keyframes bounce {
+    from {
+     transform:none;
+    }
+    to {
+      transform: none /*translateY(-10vh)*/ ;
+    }
+  }
+/*avanzada*/
+.Abody{
+    background: linear-gradient(to bottom, #2E518A 80%, #9D4EDD 100%);
+}
+.pA{
+    font-family: 'Stardew Valley';
+    font-size: 70px;
+    color: white;
+}
+.secionA{
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+}
+.articuloA1{
+    
+    display: flex;
+    flex-direction: column;
+}
+.divA1{
+    
+    width: 66vw;
+    height: 40vh;
+    background-color: #35AC7A;
+    margin: 1px;
+}
+.divA4{
+    
+    width: 33vw;
+    height: 40vh;
+    background-color: #373D8D;
+    margin: 1px;
+}
+.divA2{
+    
+    width: 35vw;
+    height: 40vh;
+    background-color: #817B28;
+    margin: 1px;
+}
+.divA3{
+    
+    width: 33vw;
+    height: 40vh;
+    background-color: #03071E;
+    margin: 1px;
+}
+.divA5{
+    
+    width: 616PX;
+    height: 353PX;
+    background-color: #03071E;
+    margin: 1px;
+    animation: 
+    10s linear 0s infinite alternate cambio2,
+    3s linear 0s infinite alternate bounce2;
+}
+.divA2{
+    border-color: #10002B;
+    border-radius: 1px;
+    padding: 10vw;
+    margin: 5vw;
+    justify-content: center;
+    width: 10vw;
+    height: 1vh;
+    background-color: linear-gradient(to bottom, #FDC500 80%, #E0AAFF 100%);
+    margin: 1px;
+}
+.imagenA{
+    width:100%;
+    height: 100%;
+
+}
+@keyframes cambio2 {
+    0%   {background-image: url(../images/dyson\ animacion2.jpg);  }
+    12%   {background-image: url(../images/dyson\ animacion2.jpg);  }
+    25% {background-image:url(../images/satisfactory\ animacion.jpg); }
+   40% {background-image:url(../images/satisfactory\ animacion.jpg); }
+    50%  {background-image: url(../images/ixion\ animacion.jpg);}
+    66%  {background-image: url(../images/ixion\ animacion.jpg);}
+    75% {background-image: url(../images/factorio\ animacion.jpg);}
+    100% {background-image: url(../images/factorio\ animacion.jpg);}
+   
+
+
+   
+  }
+  @keyframes bounce2 {
+    from {
+     transform:none;
+    }
+    to {
+      transform: none /*translateY(-10vh)*/ ;
+    }
+  }
+
+
+/*colonias*/
+.Cbody{
+    background: linear-gradient(to bottom, #1F6924 80%, #9D4EDD 100%);
+}
+.pC{
+    font-family: 'Stardew Valley';
+    font-size: 70px;
+    color: white;
+}
+.secionC{
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+}
+.articuloC1{
+    
+    display: flex;
+    flex-direction: column;
+}
+.divC1{
+    
+    width: 66vw;
+    height: 40vh;
+    background-color: #80C423;
+    margin: 1px;
+}
+.divC4{
+    
+    width: 33vw;
+    height: 40vh;
+    background-color: #9CF945;
+    margin: 1px;
+}
+.divC2{
+    
+    width: 35vw;
+    height: 40vh;
+    background-color: #817B28;
+    margin: 1px;
+}
+.divC3{
+    
+    width: 33vw;
+    height: 40vh;
+    background-color: #03071E;
+    margin: 1px;
+}
+.divC5{
+    
+    width: 616PX;
+    height: 353PX;
+    background-color: #03071E;
+    margin: 1px;
+    animation: 
+    10s linear 0s infinite alternate cambio3,
+    3s linear 0s infinite alternate bounce3;
+}
+.divC2{
+    border-color: #10002B;
+    border-radius: 1px;
+    padding: 10vw;
+    margin: 5vw;
+    justify-content: center;
+    width: 10vw;
+    height: 1vh;
+    background-color: linear-gradient(to bottom, #FDC500 80%, #E0AAFF 100%);
+    margin: 1px;
+}
+.imagenC{
+    width:100%;
+    height: 100%;
+
+}
+@keyframes cambio3 {
+    0%   {background-image: url(../images/Frostanimacion.jpg);  }
+    12%   {background-image: url(../images/Frostanimacion.jpg);  }
+    25% {background-image:url(../images/rimworld\ animacion.jpg); }
+   40% {background-image:url(../images/rimworld\ animacion.jpg); }
+    50%  {background-image: url(../images/going\ medieval.jpg);}
+    66%  {background-image: url(../images/going\ medieval.jpg);}
+    75% {background-image: url(../images/kenshi\ animacion.jpg);}
+    100% {background-image: url(../images/kenshi\ animacion.jpg);}
+   
+   
+  }
+  @keyframes bounce3 {
+    from {
+     transform:none;
+    }
+    to {
+      transform: none /*translateY(-10vh)*/ ;
+    }
+  }
+
+
+  /*Formularios*/
+
+
+
+
+
+
+  .bodyF{
+    background-color: #E9ECEF;
+    width: 100vw;
+    height: 100vh;
+}
+.headerF{
+    height: 18vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212529;
+    
+}
+.headerFletras{
+    color: white;
+}
+
+.headerF>p{
+    font-size: 6.5vw;
+}
+
+.headerF:hover{
+    opacity: 1;
+}
+.efectosnavF{
+    display: flex;
+    
+    border: 1px black solid;
+    padding: 1%;
+    background: linear-gradient(to bottom, #EBF2FA 0%, #6C757D 100%);
+    border-radius: 30px;
+    box-shadow: 3px 3px#6C757D ;
+    font-size: 150%;
+      
+
+}
+.efectosnavF:hover {
+    background: linear-gradient(to bottom, #E9ECEF 0%, #DEE2E6 100%);
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.efectosnavimagenF{
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    padding: 1%;
+    background: linear-gradient(to bottom, #EBF2FA 0%, #6C757D 100%);
+    border-radius: 30px;
+    box-shadow: 3px 3px#6C757D ;
+ 
+    width: 6%;
+    height: 6%;
+    
+
+}
+.efectosnavimagenF:hover {
+    background: linear-gradient(to bottom, #DEE2E6 0%, #6C757D  100%);
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.navegacionF{
+    display:flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+   
+    background-color: #343A40;
+}
+@media screen and (max-width: 720px) {
+
+    .navegacionF{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 35%;
+        
+        
+    
+        background-color: #343A40;
+    }
+    .efectosnavF{
+        margin: 5px;
+    }
+    
+
+  }
+
+  @media screen and (min-width: 1000px) {
+    header>p{
+        font-size: 400%;
+    }
+  }
+.ppalF{
+    display:flex;
+    justify-content: center;
+    background-color: #F8F9FA;
+    width: 100vw;
+    height: 100vh;
+}
+.izqF{
+    display: flex;
+    flex-direction:column;
+    width: 50vw;
+    height: 100vh;
+}
+.derF{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+}
+.hijoizqF{
+
+   
+    background-color: #ADB5BD;
+    border: 1px black solid;
+    margin:5px;
+    padding: 5vh;
+}
+.hijoizqF2{
+   
+    background-color: #ADB5BD;
+    border: 1px black solid;
+   margin:5px;
+   padding: 5vh;
+}
+.hijoderF{
+    
+    
+    background-color: #ADB5BD;
+    border: 1px black solid;
+    margin:5px;
+    padding: 5vh;
+}
+.hijoderF2{
+    
+   
+    background-color: #ADB5BD;
+    border: 1px black solid;
+    margin:5px;
+    padding: 5vh;
+    
+}
